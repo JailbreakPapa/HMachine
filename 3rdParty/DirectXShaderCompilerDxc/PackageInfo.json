@@ -1,0 +1,6 @@
+{
+    "PackageName" : "DirectXShaderCompilerDxc-1.6.2112-o3de-rev1-windows",
+    "URL"         : "https://github.com/o3de/DirectXShaderCompiler",
+    "License"     : "NCSA",
+    "LicenseFile" : "DirectXShaderCompilerDxc/LICENSE.TXT"
+}

@@ -1,0 +1,3 @@
+Foundation|development/Foundation|0|C++|LINK_LIBS-NOTFOUND
+ToolsFoundation|development/Tools/Libs/ToolsFoundation|0|C++|LINK_LIBS-NOTFOUND
+Utilities|development/Utilities|0|C++|LINK_LIBS-NOTFOUND

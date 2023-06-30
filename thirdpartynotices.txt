@@ -1,0 +1,10 @@
+HMachine uses third-party licenses or other resources that may be
+distributed under open source licenses.
+
+In the event we forget to include a required notice here, please open an
+issue or contact us at:
+
+   mike.amanfo12@gmail.com
+
+The following notices are provided for information only.
+

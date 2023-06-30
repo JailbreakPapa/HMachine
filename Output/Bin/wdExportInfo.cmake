@@ -1,0 +1,5 @@
+
+set(EXPINP_OUTPUT_DIRECTORY_DLL D:/HMachine/Output/Bin)
+set(EXPINP_OUTPUT_DIRECTORY_LIB D:/HMachine/Output/Lib)
+set(EXPINP_BINARY_DIR D:/HMachine/sln)
+set(EXPINP_SOURCE_DIR D:/HMachine)

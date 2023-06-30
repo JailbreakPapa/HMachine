@@ -1,0 +1,6 @@
+{
+    "PackageName" : "zstd-1.35-multiplatform",
+    "URL"         : "http://www.zstd.net/",
+    "License"     : "BSD",
+    "LicenseFile" : "zstd/LICENSE"
+}

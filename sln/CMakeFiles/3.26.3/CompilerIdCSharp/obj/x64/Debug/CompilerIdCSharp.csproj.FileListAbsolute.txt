@@ -1,0 +1,7 @@
+D:\HMachine\sln\CMakeFiles\3.26.3\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.AssemblyReference.cache
+D:\HMachine\sln\CMakeFiles\3.26.3\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.SuggestedBindingRedirects.cache
+D:\HMachine\sln\CMakeFiles\3.26.3\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.CoreCompileInputs.cache
+D:\HMachine\sln\CMakeFiles\3.26.3\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.exe
+D:\HMachine\sln\CMakeFiles\3.26.3\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.pdb
+D:\HMachine\sln\CMakeFiles\3.26.3\CompilerIdCSharp\CompilerIdCSharp.exe
+D:\HMachine\sln\CMakeFiles\3.26.3\CompilerIdCSharp\CompilerIdCSharp.pdb
