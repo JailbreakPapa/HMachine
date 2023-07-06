@@ -1,8 +1,0 @@
-Package: lz4
-Version: 1.9.3
-Depends: xxhash
-Architecture: x64-windows-static
-Multi-Arch: same
-Abi: 9667d6d6772b00b5cc0ece2f3d82322fe4872db3a23645843475eb5ae9b8c771
-Description: Lossless compression algorithm, providing compression speed at 400 MB/s per core.
-Type: Port

@@ -1,6 +1,0 @@
-{
-    "PackageName": "lz4-1.9.3-vcpkg-rev4-windows",
-    "URL": "https://github.com/lz4/lz4",
-    "License": "BSD-2-Clause",
-    "LicenseFile": "lz4/LICENSE"
-}

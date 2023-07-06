@@ -1,0 +1,60 @@
+#include <Texture/TexturePCH.h>
+
+WD_STATICLINK_LIBRARY(Texture)
+{
+  if (bReturn)
+    return;
+
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_BC);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_BC4BC5);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_BC6HBC7);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_BCDirectCompute);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexCompress);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexCompressGPU);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexConvert);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexD3D11);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexD3D12);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexDDS);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexFlipRotate);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexHDR);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexImage);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexMipmaps);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexMisc);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexNormalMaps);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexPMAlpha);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexResize);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexTGA);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexUtil);
+  WD_STATICLINK_REFERENCE(Texture_DirectXTex_DirectXTexWIC);
+  WD_STATICLINK_REFERENCE(Texture_Image_Conversions_DXTConversions);
+  WD_STATICLINK_REFERENCE(Texture_Image_Conversions_DXTexConversions);
+  WD_STATICLINK_REFERENCE(Texture_Image_Conversions_DXTexCpuConversions);
+  WD_STATICLINK_REFERENCE(Texture_Image_Conversions_PixelConversions);
+  WD_STATICLINK_REFERENCE(Texture_Image_Conversions_PlanarConversions);
+  WD_STATICLINK_REFERENCE(Texture_Image_Conversions_SwizzleConversions);
+  WD_STATICLINK_REFERENCE(Texture_Image_Formats_BmpFileFormat);
+  WD_STATICLINK_REFERENCE(Texture_Image_Formats_DdsFileFormat);
+  WD_STATICLINK_REFERENCE(Texture_Image_Formats_StbImageFileFormats);
+  WD_STATICLINK_REFERENCE(Texture_Image_Formats_TgaFileFormat);
+  WD_STATICLINK_REFERENCE(Texture_Image_Formats_WicFileFormat);
+  WD_STATICLINK_REFERENCE(Texture_Image_Implementation_Image);
+  WD_STATICLINK_REFERENCE(Texture_Image_Implementation_ImageConversion);
+  WD_STATICLINK_REFERENCE(Texture_Image_Implementation_ImageEnums);
+  WD_STATICLINK_REFERENCE(Texture_Image_Implementation_ImageFileFormat);
+  WD_STATICLINK_REFERENCE(Texture_Image_Implementation_ImageFilter);
+  WD_STATICLINK_REFERENCE(Texture_Image_Implementation_ImageFormat);
+  WD_STATICLINK_REFERENCE(Texture_Image_Implementation_ImageFormatMappings);
+  WD_STATICLINK_REFERENCE(Texture_Image_Implementation_ImageUtils);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_AutoUsage);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_InputFiles);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_OutputFormat);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_Processor);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_Texture2D);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_Texture3D);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_TextureAtlas);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_TextureCube);
+  WD_STATICLINK_REFERENCE(Texture_TexConv_Implementation_TextureModifications);
+  WD_STATICLINK_REFERENCE(Texture_Utils_Implementation_TextureAtlasDesc);
+  WD_STATICLINK_REFERENCE(Texture_Utils_Implementation_TexturePacker);
+  WD_STATICLINK_REFERENCE(Texture_wdTexFormat_wdTexFormat);
+}

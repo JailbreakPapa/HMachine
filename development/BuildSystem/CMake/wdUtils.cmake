@@ -230,7 +230,7 @@ function(wd_set_project_ide_folder TARGET_NAME PROJECT_SOURCE_DIR)
 	get_property(WD_SUBMODULE_MODE GLOBAL PROPERTY WD_SUBMODULE_MODE)
 
 	if(WD_SUBMODULE_MODE)
-		set_property(TARGET ${TARGET_NAME} PROPERTY FOLDER "ApertureUI/${IDE_FOLDER}")
+		set_property(TARGET ${TARGET_NAME} PROPERTY FOLDER "wdEngine/${IDE_FOLDER}")
 	else()
 		set_property(TARGET ${TARGET_NAME} PROPERTY FOLDER ${IDE_FOLDER})
 	endif()
@@ -307,14 +307,14 @@ endfunction()
 # ## wd_glob_source_files(<path-to-folder> <out-files>)
 # #####################################
 function(wd_glob_source_files ROOT_DIR RESULT_ALL_SOURCES)
-	file(GLOB_RECURSE RELEVANT_FILES 
-		"${ROOT_DIR}/*.cpp" 
-		"${ROOT_DIR}/*.cc" 
-		"${ROOT_DIR}/*.h" 
-		"${ROOT_DIR}/*.hpp" 
-		"${ROOT_DIR}/*.inl" 
-		"${ROOT_DIR}/*.c" 
-		"${ROOT_DIR}/*.cs" 
+	file(GLOB_RECURSE RELEVANT_FILES
+		"${ROOT_DIR}/*.cpp"
+		"${ROOT_DIR}/*.cc"
+		"${ROOT_DIR}/*.h"
+		"${ROOT_DIR}/*.hpp"
+		"${ROOT_DIR}/*.inl"
+		"${ROOT_DIR}/*.c"
+		"${ROOT_DIR}/*.cs"
 		"${ROOT_DIR}/*.ui"
 		"${ROOT_DIR}/*.qrc"
 		"${ROOT_DIR}/*.def"
@@ -421,7 +421,7 @@ endmacro()
 function(wd_add_external_projects_folder PROJECT_NUMBER)
 	set(CACHE_VAR_NAME "WD_EXTERNAL_PROJECT${PROJECT_NUMBER}")
 
-	set(${CACHE_VAR_NAME} "" CACHE PATH "A folder outside the wd repository that should be parsed for CMakeLists.txt files to include projects into the wd solution.")
+	set(${CACHE_VAR_NAME} "" CACHE PATH "A folder outside the engine repository that should be parsed for CMakeLists.txt files to include projects into the engine solution.")
 
 	set(CACHE_VAR_VALUE ${${CACHE_VAR_NAME}})
 
@@ -545,7 +545,7 @@ function(wd_set_build_types)
 		set(CMAKE_CONFIGURATION_TYPES "${WD_BUILDTYPE_ONLY}" CACHE STRING "" FORCE)
 	endif()
 
-	set(CMAKE_CONFIGURATION_TYPES "${CMAKE_CONFIGURATION_TYPES}" CACHE STRING "EZ build config types" FORCE)
+	set(CMAKE_CONFIGURATION_TYPES "${CMAKE_CONFIGURATION_TYPES}" CACHE STRING "WD build config types" FORCE)
 
 	set(CMAKE_BUILD_TYPE ${WD_BUILDTYPENAME_DEV} CACHE STRING "The default build type")
 	set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS ${CMAKE_CONFIGURATION_TYPES})
@@ -615,9 +615,7 @@ function(wd_download_and_extract URL DEST_FOLDER DEST_FILENAME)
 	if(${URL} MATCHES ".tar.gz$")
 		set(PKG_TYPE "tar.gz")
 	else()
-
-		# get_filename_component(PKG_TYPE ${URL} LAST_EXT)
-		set(PKG_TYPE "7z")
+		get_filename_component(PKG_TYPE ${URL} LAST_EXT)
 	endif()
 
 	set(FULL_FILENAME "${DEST_FILENAME}.${PKG_TYPE}")

@@ -51,11 +51,10 @@ wd_pull_all_vars()
 
 include("wdPlatformVars")
 
-set(WD_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/Code")
+set(WD_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/development")
 
 wd_init_projects()
-
-
+wd_find_qt()
 add_subdirectory(${WD_CMAKE_RELPATH_CODE})
 
 wd_add_external_projects_folder("_1")

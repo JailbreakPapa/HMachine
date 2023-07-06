@@ -1,6 +1,0 @@
-{
-    "PackageName" : "freetype-2.11.1-rev1-windows",
-    "URL"         : "https://www.freetype.org/",
-    "License"     : "FTL",
-    "LicenseFile" : "freetype/FTL.TXT"
-}
